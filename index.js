@@ -10,6 +10,10 @@ class Driver {
     this.name = name
     store.drivers.push(this)
   }
+
+  trips() {
+    return store.trips.filter(trip => trip.driverId === this.id)
+  }
 }
 
 class Passenger {

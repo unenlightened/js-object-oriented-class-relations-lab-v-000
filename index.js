@@ -29,6 +29,6 @@ class Trip {
   }
 
   passenger(){
-    return store.passengers[0]
+    return store.passengers.find()
   }
 }

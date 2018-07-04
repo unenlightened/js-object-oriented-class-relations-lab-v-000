@@ -29,6 +29,6 @@ class Trip {
   }
 
   passenger(){
-    return store.passengers.last
+    return store.passengers[0]
   }
 }

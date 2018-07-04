@@ -27,4 +27,8 @@ class Trip {
     this.passengerId = passenger.id
     store.trips.push(this)
   }
+
+  passenger() {
+    store.passengers.find(passenger => passenger.id === this.passengerId)
+  }
 }

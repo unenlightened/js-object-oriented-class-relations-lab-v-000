@@ -29,6 +29,6 @@ class Trip {
   }
 
   passenger(){
-    return store.passengers.find(passenger => passenger.id == 1)
+    return store.passengers.find(passenger => passenger.id == 18)
   }
 }

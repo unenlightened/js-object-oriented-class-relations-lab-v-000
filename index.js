@@ -29,6 +29,6 @@ class Trip {
   }
 
   passenger(){
-    return "hah"
+    return Passenger.last
   }
 }
